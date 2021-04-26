@@ -1,0 +1,6 @@
+Iteration 1: 2.66210
+Iteration 2: 2.73340
+Iteration 3: 2.73999
+Iteration 4: 2.74059
+Iteration 5: 2.74064
+After 5 iterations,root is 2.74059
