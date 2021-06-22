@@ -1,0 +1,1 @@
+("8.0" ta6osx ("e988917e421999c2fb891ec264e0436aa04f5a91" . "cf411666820d494ede4ffd2e982186ab1e6e9087") (collects #"br" #"quicklang.rkt") (collects #"jsonic" #"parser.rkt") (collects #"jsonic" #"tokenizer.rkt") (collects #"racket" #"runtime-config.rkt"))

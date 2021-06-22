@@ -1,0 +1,1 @@
+("8.0" ta6osx ("e988917e421999c2fb891ec264e0436aa04f5a91" . "af11b17cd8662d92a8eee35b97e9094f84c97447") #"/Users/hasanaliozkan/Desktop/jsonic-tutorial/jsonic/parser.rkt" #"/Users/hasanaliozkan/Desktop/jsonic-tutorial/jsonic/tokenizer.rkt" (collects #"br" #"quicklang.rkt") (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"runtime-config.rkt"))

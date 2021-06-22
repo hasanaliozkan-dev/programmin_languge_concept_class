@@ -1,0 +1,1 @@
+("8.0" ta6osx ("a999d3106370283bb0af4e2bcb31a8e2595ca7c8" . "d0a3023e843611e0d3cd260e0d9bbd5319b9aa2b") (collects #"jsonic" #"expander.rkt") (collects #"jsonic" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))

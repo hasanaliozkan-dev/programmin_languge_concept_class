@@ -1,0 +1,13 @@
+#lang br/quicklang
+
+(define (read-syntax path port)
+  (define src-lines (port->lines port))
+  (datum->syntax #f `(module postfix-mod "postfix.rkt" ,@src-lines)))
+
+(provide read-syntax)
+
+(define-macro (postfix-module-begin HANDLER-EXPR ...)
+  #'(#%module-begin
+     'HANDLER-EXPR ...))
+
+(provide (rename-out (postfix-module-begin #%module-begin)))

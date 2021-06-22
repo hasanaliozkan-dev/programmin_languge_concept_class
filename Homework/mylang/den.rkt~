@@ -1,0 +1,8 @@
+#lang racket
+(provide (except-out (all-from-out racket)
+                     #%app)
+         (rename-out [-app #%app]))
+(require syntax/parse/define)
+
+(define-syntax-parse-rule (-app args ... proc)
+  (#%app proc args ...))
